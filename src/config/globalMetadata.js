@@ -9,9 +9,9 @@ export const globalMetadata = {
 
   // c:\...\src\pages\page.jsx (Root Route)
   "/": {
-    title: "Home Dashboard | Repisas Flotantes",
-    description: "Overview and health performance metrics of shelving system installations.",
-    keywords: ["home", "workspace", "overview"]
+    title: "Learn English Online | Expert 1-on-1 English Tutoring",
+    description: "Master English with personalized, 1-on-1 online tutoring. Improve your speaking, business communication, and exam scores with expert native tutors.",
+    keywords: ["learn english", "english tutoring", "online english classes", "esl coach", "business english"]
   },
 
   // c:\...\src\pages\tinker\page.jsx
