@@ -12,7 +12,6 @@ export default function Process () {
             </div>
             <div className="xs:max-md:spaced-col md:spaced md:space-x-2 xs:max-md:space-y-4 xs:max-md:mt-10 md:mt-20 ">
                 {processes?.map((p, index)=> {
-                    console.log(index === processes.length -1)
                     return (
                         <ProcessCard key={p.id} data={p} ifLast={index === processes.length -1 } />
                     )
