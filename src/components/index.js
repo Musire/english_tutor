@@ -17,6 +17,5 @@ export * from './Section';
 export * from './SectionTitle';
 export * from './Tabs';
 export * from './Typography';
-export * from './ui';
 export * from './WhatsAppButton';
 
