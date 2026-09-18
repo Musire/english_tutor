@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourdomain.com
+Sitemap: https://en-tutor.netlify.app/sitemap.xml

@@ -1,8 +1,14 @@
 {
-  "short_name": "App",
-  "name": "My Web Application",
-  "icons": [],
-  "start_url": ".",
+  "short_name": "English Tutoring | best",
+  "name": "English Tutoring | best",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
