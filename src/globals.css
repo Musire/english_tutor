@@ -158,12 +158,14 @@
   --breakpoint-2xl: 1536px;
 
   /*font-families*/
-  --font-roboto: "Roboto", sans-serif;
+  --font-inter: "Inter", sans-serif;
   --font-poppins: "Poppins", sans-serif;
+
+  
   --font-michroma: "Michroma", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
   --font-great-vibes: "Great Vibes", cursive;
   --font-cormorant: "Cormorant Garamond", serif;
-  --font-inter: "Inter", sans-serif;
   --font-playfair: "Playfair Display", serif;
   --font-noto: "Noto Sans Display", sans-serif;
 
