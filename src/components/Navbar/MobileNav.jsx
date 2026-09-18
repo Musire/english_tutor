@@ -11,12 +11,14 @@ export default function MobileNav ({ tabs }) {
             <Link href="/" className="font-noto md:text-fluid-xl lg:text-fluid-2xl font-medium min-w-52 w-fit shrink-0">
                 <div className="overflow-hidden w-32 ">
                     <Image
+                        alt="logo-image"
                         priority 
                         src={logoIdea}
                     />
                 </div>
             </Link>
-            <button 
+            <button
+                aria-link="menu-button"
                 type="button"
                 className="cursor-pointer"
                 onClick={() => setOpen(prev => !prev)}    

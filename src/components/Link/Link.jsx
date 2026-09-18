@@ -116,6 +116,7 @@ export default function Link({
 
   return (
     <a
+      aria-label="link-component-navbar"
       ref={linkRef}
       href={href}
       onClick={handleClick}
