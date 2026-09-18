@@ -1,4 +1,4 @@
-import logoIdea from "@/assets/logo_idea.png";
+import logoIdea from "@/assets/logo_idea.avif";
 import { Image, Link } from "@/components";
 import { Menu } from "lucide-react";
 import { useState } from "react";
@@ -10,7 +10,8 @@ export default function MobileNav ({ tabs }) {
         <nav className="md:hidden bg-background  text-deep border-b border-border w-full h-16 fixed left-0 top-0 bg-card xs:px-10 lg:px-24 spaced shrink-0 z-50">
             <Link href="/" className="font-noto md:text-fluid-xl lg:text-fluid-2xl font-medium min-w-52 w-fit shrink-0">
                 <div className="overflow-hidden w-32 ">
-                    <Image 
+                    <Image
+                        priority 
                         src={logoIdea}
                     />
                 </div>
@@ -27,7 +28,7 @@ export default function MobileNav ({ tabs }) {
                     <div className="stacked space-y-2 w-full py-20 p-6">
                         {tabs.map(link => {
                             return (
-                                <Link 
+                                <Link
                                     key={link.id} 
                                     href={link.href}
                                     onClick={() => setOpen(false) }

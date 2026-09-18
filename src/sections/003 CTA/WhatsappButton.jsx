@@ -9,6 +9,7 @@ export default function WhatsappButton ({ message="Hola, me interesa saber más 
 
 return (
         <a
+            aria-label="whatsapp-link-button"
             href={whatsappUrl}
             className=" bg-accent hover:bg-darken-1/accent hover:translate-y-[.12rem] normal-space cursor-pointer text-primary w-fit flex items-center space-x-2 rounded-lg"
         >

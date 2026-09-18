@@ -1,5 +1,5 @@
-import heroImage from "@/assets/hero/hero_section.png";
-import heroWide from "@/assets/hero/hero_section_wide.png";
+import heroImage from "@/assets/hero/hero_section.avif";
+import heroWide from "@/assets/hero/hero_section_wide.avif";
 import { Image, Section } from "@/components";
 import { HeroArticle } from ".";
 
@@ -14,12 +14,14 @@ export default function Hero() {
                 <Image
                     src={heroWide}
                     className="h-full w-full"
+                    priority
                 />
             </div>
 
             {/* Mobile Portrait Image (Acts as a natural flex child) */}
             <div className="w-full h-[40vh] md:hidden order-1 shrink-0">
                 <Image
+                    priority
                     src={heroImage}
                     className="h-full w-full"
                     contain={false} // Uses object-cover via your component defaults

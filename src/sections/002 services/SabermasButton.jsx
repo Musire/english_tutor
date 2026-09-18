@@ -8,6 +8,7 @@ export default function SabermasButton ({ message="Hola, me interesa saber más 
 
 return (
         <a
+            aria-label="button-link-whatsapp"
             href={whatsappUrl}
             className="  spaced normal-space border border-border cursor-pointer rounded hover:border-gray-400 hover:shadow-sm"
         >
