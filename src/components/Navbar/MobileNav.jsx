@@ -18,7 +18,7 @@ export default function MobileNav ({ tabs }) {
                 </div>
             </Link>
             <button
-                aria-link="menu-button"
+                aria-label="menu-button"
                 type="button"
                 className="cursor-pointer"
                 onClick={() => setOpen(prev => !prev)}    

@@ -48,6 +48,7 @@ const Image = ({
         alt={alt}
         loading={priority ? 'eager' : 'lazy'}
         decoding={priority ? 'sync' : 'async'}
+        fetchPriority={priority ? 'high' : 'auto'}
         onLoad={() => setIsLoaded(true)}
         className={`w-full h-full ${layoutClasses} transition-opacity duration-500 ease-out ${
           showImage ? 'opacity-100' : 'opacity-0'
